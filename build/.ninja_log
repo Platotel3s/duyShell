@@ -1,0 +1,7 @@
+# ninja log v7
+2	666	1794235090051285654	CMakeFiles/duyShell.dir/src/executor.cpp.o	d53311f1564b8b2a
+1	932	1794235090050285652	CMakeFiles/duyShell.dir/src/parser.cpp.o	e67f076e294225a4
+0	1013	1794235090049285649	CMakeFiles/duyShell.dir/src/main.cpp.o	193565cc1235a4f0
+1013	1115	1794235091062287989	duyShell	56167aee201a5ce3
+2	437	1794235215492572352	CMakeFiles/duyShell.dir/src/executor.cpp.o	d53311f1564b8b2a
+437	520	1794235215927573339	duyShell	56167aee201a5ce3

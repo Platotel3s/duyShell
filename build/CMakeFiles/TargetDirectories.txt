@@ -1,0 +1,3 @@
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/duyShell.dir
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/edit_cache.dir
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/rebuild_cache.dir

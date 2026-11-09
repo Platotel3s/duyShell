@@ -1,3 +1,7 @@
 /home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/duyShell.dir
 /home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/edit_cache.dir
 /home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/rebuild_cache.dir
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/list_install_components.dir
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/install.dir
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/install/local.dir
+/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/install/strip.dir

@@ -12,4 +12,4 @@ add_executable(duyShell
 )
 
 target_include_directories(duyShell PRIVATE src)
-
+install(TARGETS duyShell DESTINATION bin)

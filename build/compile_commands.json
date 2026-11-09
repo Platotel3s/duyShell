@@ -1,19 +1,19 @@
 [
 {
   "directory": "/home/platoteles/Documents/praktek/duyShell/build",
-  "command": "/usr/bin/c++ -I/home/platoteles/Documents/praktek/duyShell/src -std=gnu++20 -o CMakeFiles/duyShell.dir/src/main.cpp.o -c /home/platoteles/Documents/praktek/duyShell/src/main.cpp",
+  "command": "/usr/bin/c++ -I/home/platoteles/Documents/praktek/duyShell/src -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/duyShell.dir/src/main.cpp.o -c /home/platoteles/Documents/praktek/duyShell/src/main.cpp",
   "file": "/home/platoteles/Documents/praktek/duyShell/src/main.cpp",
   "output": "/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/duyShell.dir/src/main.cpp.o"
 },
 {
   "directory": "/home/platoteles/Documents/praktek/duyShell/build",
-  "command": "/usr/bin/c++ -I/home/platoteles/Documents/praktek/duyShell/src -std=gnu++20 -o CMakeFiles/duyShell.dir/src/parser.cpp.o -c /home/platoteles/Documents/praktek/duyShell/src/parser.cpp",
+  "command": "/usr/bin/c++ -I/home/platoteles/Documents/praktek/duyShell/src -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/duyShell.dir/src/parser.cpp.o -c /home/platoteles/Documents/praktek/duyShell/src/parser.cpp",
   "file": "/home/platoteles/Documents/praktek/duyShell/src/parser.cpp",
   "output": "/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/duyShell.dir/src/parser.cpp.o"
 },
 {
   "directory": "/home/platoteles/Documents/praktek/duyShell/build",
-  "command": "/usr/bin/c++ -I/home/platoteles/Documents/praktek/duyShell/src -std=gnu++20 -o CMakeFiles/duyShell.dir/src/executor.cpp.o -c /home/platoteles/Documents/praktek/duyShell/src/executor.cpp",
+  "command": "/usr/bin/c++ -I/home/platoteles/Documents/praktek/duyShell/src -O3 -DNDEBUG -std=gnu++20 -o CMakeFiles/duyShell.dir/src/executor.cpp.o -c /home/platoteles/Documents/praktek/duyShell/src/executor.cpp",
   "file": "/home/platoteles/Documents/praktek/duyShell/src/executor.cpp",
   "output": "/home/platoteles/Documents/praktek/duyShell/build/CMakeFiles/duyShell.dir/src/executor.cpp.o"
 }

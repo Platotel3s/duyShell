@@ -12,7 +12,7 @@
 
 # =============================================================================
 # Project: duyShell
-# Configurations: 
+# Configurations: Release
 # =============================================================================
 
 #############################################
@@ -20,6 +20,11 @@
 
 ninja_required_version = 1.5
 
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Release
 # =============================================================================
 # Include auxiliary files.
 
@@ -44,25 +49,28 @@ cmake_ninja_workdir = /home/platoteles/Documents/praktek/duyShell/build/
 
 build cmake_object_order_depends_target_duyShell: phony || .
 
-build CMakeFiles/duyShell.dir/src/main.cpp.o: CXX_COMPILER__duyShell_unscanned_ /home/platoteles/Documents/praktek/duyShell/src/main.cpp || cmake_object_order_depends_target_duyShell
+build CMakeFiles/duyShell.dir/src/main.cpp.o: CXX_COMPILER__duyShell_unscanned_Release /home/platoteles/Documents/praktek/duyShell/src/main.cpp || cmake_object_order_depends_target_duyShell
+  CONFIG = Release
   DEP_FILE = CMakeFiles/duyShell.dir/src/main.cpp.o.d
-  FLAGS = -std=gnu++20
+  FLAGS = -O3 -DNDEBUG -std=gnu++20
   INCLUDES = -I/home/platoteles/Documents/praktek/duyShell/src
   OBJECT_DIR = CMakeFiles/duyShell.dir
   OBJECT_FILE_DIR = CMakeFiles/duyShell.dir/src
   TARGET_SUPPORT_DIR = CMakeFiles/duyShell.dir
 
-build CMakeFiles/duyShell.dir/src/parser.cpp.o: CXX_COMPILER__duyShell_unscanned_ /home/platoteles/Documents/praktek/duyShell/src/parser.cpp || cmake_object_order_depends_target_duyShell
+build CMakeFiles/duyShell.dir/src/parser.cpp.o: CXX_COMPILER__duyShell_unscanned_Release /home/platoteles/Documents/praktek/duyShell/src/parser.cpp || cmake_object_order_depends_target_duyShell
+  CONFIG = Release
   DEP_FILE = CMakeFiles/duyShell.dir/src/parser.cpp.o.d
-  FLAGS = -std=gnu++20
+  FLAGS = -O3 -DNDEBUG -std=gnu++20
   INCLUDES = -I/home/platoteles/Documents/praktek/duyShell/src
   OBJECT_DIR = CMakeFiles/duyShell.dir
   OBJECT_FILE_DIR = CMakeFiles/duyShell.dir/src
   TARGET_SUPPORT_DIR = CMakeFiles/duyShell.dir
 
-build CMakeFiles/duyShell.dir/src/executor.cpp.o: CXX_COMPILER__duyShell_unscanned_ /home/platoteles/Documents/praktek/duyShell/src/executor.cpp || cmake_object_order_depends_target_duyShell
+build CMakeFiles/duyShell.dir/src/executor.cpp.o: CXX_COMPILER__duyShell_unscanned_Release /home/platoteles/Documents/praktek/duyShell/src/executor.cpp || cmake_object_order_depends_target_duyShell
+  CONFIG = Release
   DEP_FILE = CMakeFiles/duyShell.dir/src/executor.cpp.o.d
-  FLAGS = -std=gnu++20
+  FLAGS = -O3 -DNDEBUG -std=gnu++20
   INCLUDES = -I/home/platoteles/Documents/praktek/duyShell/src
   OBJECT_DIR = CMakeFiles/duyShell.dir
   OBJECT_FILE_DIR = CMakeFiles/duyShell.dir/src
@@ -76,8 +84,10 @@ build CMakeFiles/duyShell.dir/src/executor.cpp.o: CXX_COMPILER__duyShell_unscann
 #############################################
 # Link the executable duyShell
 
-build duyShell: CXX_EXECUTABLE_LINKER__duyShell_ CMakeFiles/duyShell.dir/src/main.cpp.o CMakeFiles/duyShell.dir/src/parser.cpp.o CMakeFiles/duyShell.dir/src/executor.cpp.o
+build duyShell: CXX_EXECUTABLE_LINKER__duyShell_Release CMakeFiles/duyShell.dir/src/main.cpp.o CMakeFiles/duyShell.dir/src/parser.cpp.o CMakeFiles/duyShell.dir/src/executor.cpp.o
+  CONFIG = Release
   DEP_FILE = CMakeFiles/duyShell.dir/link.d
+  FLAGS = -O3 -DNDEBUG
   LINK_FLAGS = -Wl,--dependency-file=CMakeFiles/duyShell.dir/link.d
   OBJECT_DIR = CMakeFiles/duyShell.dir
   POST_BUILD = :
@@ -103,12 +113,54 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/platoteles/Documents/praktek/duyShell/build && /usr/bin/cmake --regenerate-during-build -S/home/platoteles/Documents/praktek/duyShell -B/home/platoteles/Documents/praktek/duyShell/build
+  COMMAND = cd /home/platoteles/Documents/praktek/duyShell/build && /usr/sbin/cmake --regenerate-during-build -S/home/platoteles/Documents/praktek/duyShell -B/home/platoteles/Documents/praktek/duyShell/build
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build CMakeFiles/install.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/platoteles/Documents/praktek/duyShell/build && /usr/sbin/cmake -P cmake_install.cmake
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build install: phony CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build CMakeFiles/install/local.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/platoteles/Documents/praktek/duyShell/build && /usr/sbin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build install/local: phony CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build CMakeFiles/install/strip.util: CUSTOM_COMMAND all
+  COMMAND = cd /home/platoteles/Documents/praktek/duyShell/build && /usr/sbin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build install/strip: phony CMakeFiles/install/strip.util
 
 # =============================================================================
 # Target aliases.

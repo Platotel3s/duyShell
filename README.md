@@ -44,3 +44,5 @@ chsh -s \$(which duyShell)
 - [ ] Multi-stage Piping (`|`)
 - [ ] Command history & Tab auto-completion
 
+## Testing
+<img width="1366" height="768" alt="Screenshot_20261109_222138" src="https://github.com/user-attachments/assets/ad42ee5e-9514-4aef-ab37-7004bc1f00f6" />
